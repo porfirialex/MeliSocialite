@@ -28,7 +28,7 @@ Also the Meli Facade is available for actions with the API
 ```php
 'alias' => [
     // Other alias...
-    
+    'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     'Meli' => Kolovious\MeliSocialite\Facade\Meli::class,
     
 ],
